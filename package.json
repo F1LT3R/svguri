@@ -1,0 +1,23 @@
+{
+  "name": "svguri",
+  "version": "1.0.0",
+  "description": "A command line utility for creating IE9 compatible Base64 SVG Data URI strings for CSS use.",
+  "main": "convert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "svguri": "convert.js"
+  },
+  "author": "Alistair MacDonald <al@pwn.io>",
+  "email": "al@pwn.io",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/f1lt3r/svguri.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
